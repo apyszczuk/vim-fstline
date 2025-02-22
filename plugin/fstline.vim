@@ -1,3 +1,9 @@
+" vim-fstline - Fixed status line
+"
+" Author:     Artur Pyszczuk <apyszczuk@gmail.com>
+" License:    Same terms as Vim itself
+" Website:    https://github.com/apyszczuk/vim-fstline
+
 if exists ('g:loaded_fstline')
     finish
 endif
