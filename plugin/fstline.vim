@@ -10,7 +10,7 @@ endif
 let g:loaded_fstline = 1
 
 set statusline=
-set statusline+=%0*\ %{winnr()}\                         " Window number
+set statusline+=%0*\ %{winnr()}:%n\                      " Window number, buffer number
 set statusline+=%0*\ %<%f%m%r%h%w\                       " File path, modified, readonly, helpfile, preview
 set statusline+=%=                                       " Right Side
 set statusline+=%0*\ %Y\                                 " FileType
